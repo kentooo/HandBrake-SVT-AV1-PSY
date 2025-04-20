@@ -49,7 +49,7 @@ jobs:
         git clone https://github.com/HandBrake/HandBrake.git
         ./patch.sh
         cd HandBrake
-        ./configure --cross=aarch64-w64-mingw32 --enable-mf --launch-jobs=0 --launch
+        ./configure --cross=aarch64-w64-mingw32 --enable-mf --enable-libdovi --launch-jobs=0 --launch
         cd build
         make pkg.create.zip
         
