@@ -68,11 +68,13 @@ makedepends=(
   'llvm'
   # AMD VCE encoding on Linux requires Vulkan
   'vulkan-headers'
+  # Dolby Vision Support requires Cargo-C
+  'cargo-c'
   "${_commondeps[@]}"
   "${_guideps[@]}"
 )
 options=('!lto') # https://bugs.archlinux.org/task/72600
-source=("HandBrake::git+https://github.com/HandBrake/HandBrake.git" "HandBrake-SVT-AV1-PSY::git+https://github.com/Uranite/HandBrake-SVT-AV1-PSY.git")
+source=("HandBrake::git+https://github.com/HandBrake/HandBrake.git" "HandBrake-SVT-AV1-PSY::git+https://github.com/kentooo/HandBrake-SVT-AV1-PSY.git")
 sha256sums=('SKIP' 'SKIP')
 
 setup_compiler() {
@@ -107,6 +109,9 @@ build() {
     --lto=on
     --enable-qsv
     --enable-vce
+    --enable-nvdec
+    --enable-nvenc
+    --enable-libdovi
   )
 
   cd "${srcdir}/HandBrake" || exit
