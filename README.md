@@ -8,15 +8,14 @@ In addition, using GitHub Actions, nightly build of patched executables will be 
 ### Downloads and Build Status
 | Operating System  | Download        | Build Status *1 |
 | ----------------- | --------------- | ------------- |
-| Windows           | [Download](https://github.com/Uranite/HandBrake-SVT-AV1-PSY/releases/tag/win) | [![Windows Build](https://github.com/Uranite/HandBrake-SVT-AV1-PSY/actions/workflows/nightly-win.yml/badge.svg)](https://github.com/Uranite/HandBrake-SVT-AV1-PSY/actions/workflows/nightly-win.yml)  |
-| macOS             | [Download](https://github.com/Uranite/HandBrake-SVT-AV1-PSY/releases/tag/mac) | [![macOS build](https://github.com/Uranite/HandBrake-SVT-AV1-PSY/actions/workflows/nightly-mac.yml/badge.svg)](https://github.com/Uranite/HandBrake-SVT-AV1-PSY/actions/workflows/nightly-mac.yml)  |
-| Linux (Flatpak)   | [Download](https://github.com/Uranite/HandBrake-SVT-AV1-PSY/releases/tag/flatpak) | [![Flatpak Build](https://github.com/Uranite/HandBrake-SVT-AV1-PSY/actions/workflows/nightly-flatpak.yml/badge.svg)](https://github.com/Uranite/HandBrake-SVT-AV1-PSY/actions/workflows/nightly-flatpak.yml) |
-| Ubuntu            | [Download](https://github.com/Uranite/HandBrake-SVT-AV1-PSY/releases/tag/ubuntu) | [![Flatpak Build](https://github.com/Uranite/HandBrake-SVT-AV1-PSY/actions/workflows/nightly-ubuntu.yml/badge.svg)](https://github.com/Uranite/HandBrake-SVT-AV1-PSY/actions/workflows/nightly-ubuntu.yml) |
-| Arch Linux        | [Download](https://github.com/Uranite/HandBrake-SVT-AV1-PSY/releases/tag/arch) | [![Flatpak Build](https://github.com/Uranite/HandBrake-SVT-AV1-PSY/actions/workflows/nightly-arch.yml/badge.svg)](https://github.com/Uranite/HandBrake-SVT-AV1-PSY/actions/workflows/nightly-arch.yml) |
-
-*1 Please note that if a build is marked as failed, previous builds may still be available for download!
+| Windows 10+       | [Download](https://github.com/kentooo/HandBrake-SVT-AV1-PSY/releases/tag/win) | [![Windows Build](https://github.com/kentooo/HandBrake-SVT-AV1-PSY/actions/workflows/nightly-win.yml/badge.svg)](https://github.com/kentooo/HandBrake-SVT-AV1-PSY/actions/workflows/nightly-win.yml)  |
+| macOS             | [Download](https://github.com/kentooo/HandBrake-SVT-AV1-PSY/releases/tag/mac) | [![macOS build](https://github.com/kentooo/HandBrake-SVT-AV1-PSY/actions/workflows/nightly-mac.yml/badge.svg)](https://github.com/kentooo/HandBrake-SVT-AV1-PSY/actions/workflows/nightly-mac.yml)  |
+| Linux (Flatpak)   | [Download](https://github.com/kentooo/HandBrake-SVT-AV1-PSY/releases/tag/flatpak) | [![Flatpak Build](https://github.com/kentooo/HandBrake-SVT-AV1-PSY/actions/workflows/nightly-flatpak.yml/badge.svg)](https://github.com/kentooo/HandBrake-SVT-AV1-PSY/actions/workflows/nightly-flatpak.yml) |
+| Ubuntu            | [Download](https://github.com/kentooo/HandBrake-SVT-AV1-PSY/releases/tag/ubuntu) | [![Flatpak Build](https://github.com/kentooo/HandBrake-SVT-AV1-PSY/actions/workflows/nightly-ubuntu.yml/badge.svg)](https://github.com/kentooo/HandBrake-SVT-AV1-PSY/actions/workflows/nightly-ubuntu.yml) |
+| Arch Linux        | [Download](https://github.com/kentooo/HandBrake-SVT-AV1-PSY/releases/tag/arch) | [![Flatpak Build](https://github.com/kentooo/HandBrake-SVT-AV1-PSY/actions/workflows/nightly-arch.yml/badge.svg)](https://github.com/kentooo/HandBrake-SVT-AV1-PSY/actions/workflows/nightly-arch.yml) |
+* 1 Please note that if a build is marked as failed, previous builds may still be available for download!
+* **NOTE**:Windows package only supports on Windows 10, Windows 11, and later. dropped support for earlier Windows.
 ### Testing
 I can currently only test the custom build on linux. Help for testing on other platforms would be helpful.
 ### Special thanks
 A special thanks to [vincejv (Docker container for HandBrake)](https://github.com/vincejv/docker-handbrake) from which I took inspiration for some patches.
-
