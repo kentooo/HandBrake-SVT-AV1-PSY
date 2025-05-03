@@ -8,7 +8,7 @@ on:
 
 env:
   TOOLCHAIN_VERSION: "20250430"
-  TOOLCHAIN_SHA: "c584433e9502e29158a402c5dcaa6a9efcd62bc3"
+  TOOLCHAIN_SHA: "12a59c4adbc34c61a860a8926815cf26f1bff2e9"
   TOOLCHAIN_FILE: "llvm-mingw-20250430-ucrt-ubuntu-22.04-x86_64.tar.xz"
 
 jobs:
