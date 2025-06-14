@@ -13,7 +13,7 @@ In addition, using GitHub Actions, nightly build of patched executables will be 
 | Linux (Flatpak)   | [Download](https://github.com/kentooo/HandBrake-SVT-AV1-PSY/releases/tag/flatpak) | [![Flatpak Build](https://github.com/kentooo/HandBrake-SVT-AV1-PSY/actions/workflows/nightly-flatpak.yml/badge.svg)](https://github.com/kentooo/HandBrake-SVT-AV1-PSY/actions/workflows/nightly-flatpak.yml) |
 | Ubuntu            | [Download](https://github.com/kentooo/HandBrake-SVT-AV1-PSY/releases/tag/ubuntu) | [![Flatpak Build](https://github.com/kentooo/HandBrake-SVT-AV1-PSY/actions/workflows/nightly-ubuntu.yml/badge.svg)](https://github.com/kentooo/HandBrake-SVT-AV1-PSY/actions/workflows/nightly-ubuntu.yml) |
 | Arch Linux        | [Download](https://github.com/kentooo/HandBrake-SVT-AV1-PSY/releases/tag/arch) | [![Flatpak Build](https://github.com/kentooo/HandBrake-SVT-AV1-PSY/actions/workflows/nightly-arch.yml/badge.svg)](https://github.com/kentooo/HandBrake-SVT-AV1-PSY/actions/workflows/nightly-arch.yml) |
-* 1 Please note that if a build is marked as failed, previous builds may still be available for download!
+* Please note that if a build is marked as failed, previous builds may still be available for download!
 * **NOTE**:Windows package only supports on Windows 10, Windows 11, and later. dropped support for earlier Windows.
 ### Testing
 I can currently only test the custom build on linux. Help for testing on other platforms would be helpful.
